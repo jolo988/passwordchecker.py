@@ -1,5 +1,5 @@
 # passwordchecker.py
-Checks how many times your password has been hacked (in terminal)
+Checks how many times your password has been hacked (in console only)
 
 # Dependencies:
 
@@ -10,7 +10,3 @@ Checks how many times your password has been hacked (in terminal)
 • sys: import sys (built-in)
 
 • API: https://api.pwnedpasswords.com/range/
-
-
-
-
