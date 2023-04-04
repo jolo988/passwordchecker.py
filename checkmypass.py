@@ -2,7 +2,6 @@ import hashlib #sha1 password hashing
 import requests
 import sys
 
-
 # check password against API
 def request_api_data(query_char):
     url = 'https://api.pwnedpasswords.com/range/' + query_char
@@ -10,7 +9,6 @@ def request_api_data(query_char):
     if res.status_code != 200:
         raise RuntimeError(f'Error fetching: {res.status_code}, check the API and try again.')
     return res
-
 
 # obtain number of password leaks
 def get_password_leak_count(hashes, hash_to_check):
